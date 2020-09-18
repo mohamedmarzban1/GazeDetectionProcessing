@@ -1,0 +1,7 @@
+ 
+
+RoadVideo="$videosPath/road.mp4"
+
+./build/bin/apriltags_demo -F 1000 -W 1920 -H 1080 -S 0.176 -I "$RoadVideo" -O "$AP_RoadOutdoor" -f -d &
+
+./build/bin/apriltags_demo -F 1000 -W 1920 -H 1080 -S 0.16 -I "$RoadVideo" -O "$AP_RoadOutdoor" -f -d &
